@@ -1,3 +1,8 @@
+
+EXERCICIO 1
+
+
+
 CREATE DATABASE db_rh;
 
 -- selecionando o banco de dados db_rh.
@@ -35,3 +40,7 @@ WHERE salario < 2000.00;
 -- alterando um dado na tabela empregados.
 ALTER TABLE empregados CHANGE COLUMN id_funcionario  id_funcionario  INT NOT NULL; -- meu primary key passa a ter que ser definido pelo usuario.
 SELECT * FROM empregados;
+
+
+
+
